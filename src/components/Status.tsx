@@ -1,7 +1,5 @@
-import React from "react";
-
 type StatusProps = {
-  status: string;
+  status: "loading" | "success" | "error";
 };
 
 export const Status = (props: StatusProps) => {
