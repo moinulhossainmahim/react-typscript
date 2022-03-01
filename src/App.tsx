@@ -1,4 +1,5 @@
 import "./App.css";
+import { Input } from "./components/Input";
 
 function App() {
   // const personName = {
@@ -30,6 +31,19 @@ function App() {
         <Heading>Oscar goes to Leonardo Dicaprio!</Heading>
       </Oscar> */}
       {/* <Greet name='Moinul' isLoggedIn={false} /> */}
+      {/* <Button
+        handleClick={(event, id) => {
+          console.log("Clicked!");
+          console.log(event);
+          console.log(id);
+        }}
+      /> */}
+      <Input
+        value=''
+        handleChange={(event) => {
+          console.log(event);
+        }}
+      />
     </div>
   );
 }
