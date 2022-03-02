@@ -1,10 +1,10 @@
-import Toast from "./components/templateLiterals/Toast";
+import HotToast from "./components/HotToast/HotToast";
 
 const App = () => {
   return (
-    <>
-      <Toast position='center' />
-    </>
+    <div>
+      <HotToast />
+    </div>
   );
 };
 
