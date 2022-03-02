@@ -1,11 +1,4 @@
-import React from "react";
-
-type personProps = {
-  name: {
-    first: string;
-    last: string;
-  };
-};
+import { personProps } from "./Person.types";
 
 function Person(props: personProps) {
   return (
